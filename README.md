@@ -48,6 +48,40 @@ No database — all changes happen in-memory and are lost on refresh (suitable f
 - JavaScript (ES6+)
 - Typescript
 - [JSONPlaceholder API](https://jsonplaceholder.typicode.com/)
-
+- ⚛️ React (with TypeScript)
+- 🧰 Redux Toolkit for state management
+- 💨 Tailwind CSS for styling
+- 🌐 Axios for HTTP requests
 ---
+## 🧱 Project File Structure
+----``bash
+task-manager/
+├── public/
+│ └── index.html # Main HTML file
+├── src/
+│ ├── Components/
+│ │ ├── HomePage.tsx
+│ │ ├── Task.tsx
+│ │ ├── TaskCreateOrUpdate.tsx
+│ │ ├── TaskList.tsx
+│ │ └── WarningModal.tsx
+│ ├── Services/
+│ ├── Store/
+│ │ └── Task/
+│ │ ├── TaskAPI.ts
+│ │ ├── TaskSlice.ts
+│ │ └── TaskType.tsx
+│ ├── Utils/
+│ ├── store.ts
+│ ├── App.tsx
+│ ├── index.tsx
+│ └── index.css
+├── .babelrc
+├── .gitignore
+├── package.json
+├── tsconfig.json
+├── tailwind.config.js
+├── postcss.config.js
+└── README.md
+
 
