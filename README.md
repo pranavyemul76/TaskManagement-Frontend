@@ -52,7 +52,7 @@ No database — all changes happen in-memory and are lost on refresh (suitable f
 - 🟦 Typescript
 - [JSONPlaceholder API](https://jsonplaceholder.typicode.com/)
 
----
+```
 ## 🧱 Project File Structure
 ```bash
 type-script-task-management-app/
