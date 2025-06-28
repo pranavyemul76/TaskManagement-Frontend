@@ -29,11 +29,6 @@ Tasks can be moved between statuses using buttons or dropdowns.
 ✅ **Client-Side Only**  
 No database — all changes happen in-memory and are lost on refresh (suitable for demos and static hosting).
 
----
-
-## 📸 Screenshots
-
-*(Include images here if available)*
 
 ---
 
@@ -51,9 +46,8 @@ No database — all changes happen in-memory and are lost on refresh (suitable f
 - HTML5
 - CSS3
 - JavaScript (ES6+)
+- Typescript
 - [JSONPlaceholder API](https://jsonplaceholder.typicode.com/)
 
 ---
-
-## 🛠 Folder Structure
 
