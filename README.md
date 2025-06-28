@@ -29,9 +29,9 @@ Tasks can be moved between statuses using buttons or dropdowns.
 ✅ **Client-Side Only**  
 No database — all changes happen in-memory and are lost on refresh (suitable for demos and static hosting).
 
-
+Demo
 ---
-
+📝 [Live Demo](https://task-management-frontend-puce-alpha.vercel.app/)
 ## 🧪 How to Run Locally
 ```bash
 1. Clone the repository or download the `.zip`.
@@ -52,9 +52,9 @@ No database — all changes happen in-memory and are lost on refresh (suitable f
 - 🟦 Typescript
 - [JSONPlaceholder API](https://jsonplaceholder.typicode.com/)
 
-```
+
 ## 🧱 Project File Structure
-```bash
+```
 type-script-task-management-app/
 ├── public/
 │ └── index.html # Main HTML file
