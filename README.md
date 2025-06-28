@@ -33,11 +33,11 @@ No database — all changes happen in-memory and are lost on refresh (suitable f
 ---
 
 ## 🧪 How to Run Locally
-
+```bash
 1. Clone the repository or download the `.zip`.
-2. Open `index.html` in any modern browser.
-3. Tasks will be fetched and listed.
-4. Click to update status as desired.
+2. run npm install
+3. run npm run start
+4. go to http://localhost:3000/
 
 ---
 
