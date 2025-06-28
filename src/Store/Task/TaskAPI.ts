@@ -1,4 +1,5 @@
-import { instance } from "../../Services/axiosservices";
+import axios from "axios";
+
 export function DummyData() {
-  return instance.get("https://jsonplaceholder.typicode.com/todos");
+  return axios.get("https://jsonplaceholder.typicode.com/todos");
 }
