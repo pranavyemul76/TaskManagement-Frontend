@@ -55,7 +55,7 @@ No database — all changes happen in-memory and are lost on refresh (suitable f
 ---
 ## 🧱 Project File Structure
 ```bash
-task-manager/
+type-script-task-management-app/
 ├── public/
 │ └── index.html # Main HTML file
 ├── src/
@@ -66,6 +66,7 @@ task-manager/
 │ │ ├── TaskList.tsx
 │ │ └── WarningModal.tsx
 │ ├── Services/
+|   └── axiosservices.js
 │ ├── Store/
 │ │ └── Task/
 │ │ ├── TaskAPI.ts
