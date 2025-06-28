@@ -10,7 +10,6 @@ const TaskList: React.FC<FilterProps> = ({ status }) => {
   const Tasks = useSelector((state: RootState) => state.tasks);
   const dispatch = useDispatch<AppDispatch>();
   useEffect(() => {
-    console.log("useefect try");
     dispatch(fetchTasksFromAPI());
   }, []);
   return (
@@ -54,7 +53,7 @@ const TaskList: React.FC<FilterProps> = ({ status }) => {
           <tbody className="divide-y divide-gray-100 border-t border-gray-100">
             {Tasks.tasks
               .filter((task) =>
-                status === "All" ? true : task.Status === status
+                status === "All" ? true : task.Status !== status
               )
               .map((task) => {
                 return (

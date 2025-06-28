@@ -26,11 +26,6 @@ const Homepage = () => {
 
   return (
     <>
-      <h2 className="text-3xl font-extrabold tracking-tight text-[#c94ee7] text-center mb-0">
-        Thank you for the opportunity to work on the second-round assignment. I
-        have completed the task and would like to share my approach and
-        findings.
-      </h2>
       <div className="p-0 sm:p-8 flex justify-between items-center mb-8">
         <h2 className="text-2xl   font-bold leading-7  text-gray-900 sm:truncate sm:text-3xl sm:tracking-tight">
           Task List
@@ -47,7 +42,7 @@ const Homepage = () => {
               <option value={"Pending"}>Pending</option>
               <option value={"InProgress"}>InProgress</option>
             </select>
-          </div>{" "}
+          </div>
           <div onClick={HandleClose} className="px-8 text-lg">
             Add
           </div>
