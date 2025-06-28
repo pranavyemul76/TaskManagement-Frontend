@@ -39,7 +39,7 @@ No database — all changes happen in-memory and are lost on refresh (suitable f
 3. run npm run start
 4. go to http://localhost:3000/
 
----
+```
 
 ## 🧱 Technologies Used
 - ⚛️ React (with TypeScript)
