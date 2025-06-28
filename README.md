@@ -54,7 +54,7 @@ No database — all changes happen in-memory and are lost on refresh (suitable f
 - 🌐 Axios for HTTP requests
 ---
 ## 🧱 Project File Structure
-----``bash
+```bash
 task-manager/
 ├── public/
 │ └── index.html # Main HTML file
