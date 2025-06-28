@@ -42,16 +42,16 @@ No database — all changes happen in-memory and are lost on refresh (suitable f
 ---
 
 ## 🧱 Technologies Used
-
-- HTML5
-- CSS3
-- JavaScript (ES6+)
-- Typescript
-- [JSONPlaceholder API](https://jsonplaceholder.typicode.com/)
 - ⚛️ React (with TypeScript)
 - 🧰 Redux Toolkit for state management
 - 💨 Tailwind CSS for styling
 - 🌐 Axios for HTTP requests
+- 🟧 HTML5
+- 🟦 CSS3
+- 🟨 JavaScript (ES6+)
+- 🟦 Typescript
+- [JSONPlaceholder API](https://jsonplaceholder.typicode.com/)
+
 ---
 ## 🧱 Project File Structure
 ```bash
