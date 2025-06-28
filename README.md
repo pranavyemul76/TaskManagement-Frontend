@@ -1,6 +1,6 @@
 # 📝 Task Management Web Application
 
-A simple **Task Management** static web application built using HTML, CSS, and JavaScript. The app allows users to:
+A simple **Task Management** static web application built using HTML, CSS,Typescript, and JavaScript. The app allows users to:
 
 - View tasks
 - Update task statuses (`Pending`, `InProgress`, `Completed`)
